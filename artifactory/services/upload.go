@@ -23,7 +23,7 @@ import (
 	ioutils "github.com/jfrog/jfrog-client-go/utils/io"
 	"github.com/jfrog/jfrog-client-go/utils/io/content"
 	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils/checksum"
+	//"github.com/jfrog/jfrog-client-go/utils/io/fileutils/checksum"
 	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
 	"github.com/jfrog/jfrog-client-go/utils/log"
 )
