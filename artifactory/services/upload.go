@@ -160,7 +160,7 @@ func createProperties(artifact clientutils.Artifact, uploadParams UploadParams) 
 			}
 			// If Symlink target exists -> get SHA1 if isn't a directory
 		} else if !fileInfo.IsDir() {
-			fmt.Println("Testing code removal")
+			log.Debug("Testing code removal")
 			//file, err := os.Open(artifact.LocalPath)
 			//if err != nil {
 			//	return nil, errorutils.CheckError(err)
