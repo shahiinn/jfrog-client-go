@@ -7,14 +7,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/utils/log"
-	"github.com/jfrog/jfrog-client-go/utils/tests"
+	"github.com/shahiinn/jfrog-client-go/utils/log"
+	"github.com/shahiinn/jfrog-client-go/utils/tests"
 )
 
 const (
 	JfrogTestsHome      = ".jfrogTest"
 	JfrogHomeEnv        = "JFROG_CLI_HOME"
-	CliIntegrationTests = "github.com/jfrog/jfrog-client-go/tests"
+	CliIntegrationTests = "github.com/shahiinn/jfrog-client-go/tests"
 )
 
 func TestMain(m *testing.M) {

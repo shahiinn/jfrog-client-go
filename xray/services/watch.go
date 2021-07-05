@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
+	"github.com/shahiinn/jfrog-client-go/http/jfroghttpclient"
 
-	artUtils "github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/auth"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
-	"github.com/jfrog/jfrog-client-go/xray/services/utils"
+	artUtils "github.com/shahiinn/jfrog-client-go/artifactory/services/utils"
+	"github.com/shahiinn/jfrog-client-go/auth"
+	clientutils "github.com/shahiinn/jfrog-client-go/utils"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/log"
+	"github.com/shahiinn/jfrog-client-go/xray/services/utils"
 )
 
 const (

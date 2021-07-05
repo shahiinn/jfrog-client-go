@@ -2,8 +2,8 @@ package utils
 
 import (
 	"bytes"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/io/fileutils"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"os/exec"

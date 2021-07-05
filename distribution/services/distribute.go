@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"time"
 
-	artifactoryUtils "github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/auth"
-	distributionUtils "github.com/jfrog/jfrog-client-go/distribution/services/utils"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	artifactoryUtils "github.com/shahiinn/jfrog-client-go/artifactory/services/utils"
+	"github.com/shahiinn/jfrog-client-go/auth"
+	distributionUtils "github.com/shahiinn/jfrog-client-go/distribution/services/utils"
+	"github.com/shahiinn/jfrog-client-go/http/jfroghttpclient"
+	"github.com/shahiinn/jfrog-client-go/utils"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/log"
 )
 
 const defaultMaxWaitMinutes = 60    // 1 hour

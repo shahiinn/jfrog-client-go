@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils/checksum"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/io/fileutils/checksum"
 )
 
 const (

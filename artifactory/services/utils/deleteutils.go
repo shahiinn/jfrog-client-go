@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/content"
+	"github.com/shahiinn/jfrog-client-go/utils"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/io/content"
 )
 
 func WildcardToDirsPath(deletePattern, searchResult string) (string, error) {

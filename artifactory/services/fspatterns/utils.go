@@ -8,12 +8,12 @@ import (
 	"regexp"
 	"strings"
 
-	serviceutils "github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/utils"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils/checksum"
+	serviceutils "github.com/shahiinn/jfrog-client-go/artifactory/services/utils"
+	"github.com/shahiinn/jfrog-client-go/utils"
+	clientutils "github.com/shahiinn/jfrog-client-go/utils"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/io/fileutils"
+	"github.com/shahiinn/jfrog-client-go/utils/io/fileutils/checksum"
 )
 
 // Return all the existing paths of the provided root path

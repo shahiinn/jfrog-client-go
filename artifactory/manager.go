@@ -3,15 +3,15 @@ package artifactory
 import (
 	"io"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/buildinfo"
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
-	_go "github.com/jfrog/jfrog-client-go/artifactory/services/go"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/config"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	ioutils "github.com/jfrog/jfrog-client-go/utils/io"
-	"github.com/jfrog/jfrog-client-go/utils/io/content"
+	"github.com/shahiinn/jfrog-client-go/artifactory/buildinfo"
+	"github.com/shahiinn/jfrog-client-go/artifactory/services"
+	_go "github.com/shahiinn/jfrog-client-go/artifactory/services/go"
+	"github.com/shahiinn/jfrog-client-go/artifactory/services/utils"
+	"github.com/shahiinn/jfrog-client-go/config"
+	"github.com/shahiinn/jfrog-client-go/http/jfroghttpclient"
+	clientutils "github.com/shahiinn/jfrog-client-go/utils"
+	ioutils "github.com/shahiinn/jfrog-client-go/utils/io"
+	"github.com/shahiinn/jfrog-client-go/utils/io/content"
 )
 
 type ArtifactoryServicesManagerImp struct {

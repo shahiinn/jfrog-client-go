@@ -1,7 +1,7 @@
 package httputils
 
 import (
-	"github.com/jfrog/jfrog-client-go/utils"
+	"github.com/shahiinn/jfrog-client-go/utils"
 	"net/http"
 	"time"
 )

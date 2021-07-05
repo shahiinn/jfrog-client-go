@@ -3,8 +3,8 @@ package utils
 import (
 	"regexp"
 
-	rtUtils "github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/utils"
+	rtUtils "github.com/shahiinn/jfrog-client-go/artifactory/services/utils"
+	"github.com/shahiinn/jfrog-client-go/utils"
 )
 
 type ReleaseNotesSyntax string

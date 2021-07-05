@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/shahiinn/jfrog-client-go/utils/io/fileutils"
+	"github.com/shahiinn/jfrog-client-go/utils/log"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
+	"github.com/shahiinn/jfrog-client-go/artifactory/services"
 	"github.com/stretchr/testify/assert"
 )
 

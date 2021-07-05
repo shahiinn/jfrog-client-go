@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
 	"strings"
 	"time"
 )

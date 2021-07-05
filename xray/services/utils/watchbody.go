@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
 )
 
 const (

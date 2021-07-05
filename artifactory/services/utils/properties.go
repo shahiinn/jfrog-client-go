@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
 	"net/url"
 	"strings"
 )

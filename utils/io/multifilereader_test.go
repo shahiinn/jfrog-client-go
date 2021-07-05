@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
+	"github.com/shahiinn/jfrog-client-go/utils/io/fileutils"
 )
 
 func TestNewMultiFileReaderAt(t *testing.T) {

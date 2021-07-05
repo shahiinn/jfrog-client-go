@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/shahiinn/jfrog-client-go/auth"
+	"github.com/shahiinn/jfrog-client-go/http/jfroghttpclient"
+	"github.com/shahiinn/jfrog-client-go/utils"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/log"
 )
 
 type DistributionStatusService struct {

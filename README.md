@@ -139,7 +139,7 @@ We welcome pull requests from the community.
 To run tests on the source code, you'll need a running JFrog Artifactory Pro instance.
 Use the following command with the below options to run the tests.
 ```sh
-go test -v github.com/jfrog/jfrog-client-go/tests [test-types] [flags]
+go test -v github.com/shahiinn/jfrog-client-go/tests [test-types] [flags]
 ```
 Optional flags:
 

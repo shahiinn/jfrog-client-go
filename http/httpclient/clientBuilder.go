@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/auth/cert"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/auth/cert"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
 )
 
 var DefaultHttpTimeout = 30 * time.Second

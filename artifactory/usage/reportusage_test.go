@@ -2,7 +2,7 @@ package usage
 
 import (
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/utils"
+	"github.com/shahiinn/jfrog-client-go/utils"
 	"testing"
 )
 

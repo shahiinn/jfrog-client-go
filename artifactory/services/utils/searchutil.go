@@ -13,13 +13,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jfrog/jfrog-client-go/utils/version"
+	"github.com/shahiinn/jfrog-client-go/utils/version"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/buildinfo"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/content"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/shahiinn/jfrog-client-go/artifactory/buildinfo"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/io/content"
+	"github.com/shahiinn/jfrog-client-go/utils/io/fileutils"
+	"github.com/shahiinn/jfrog-client-go/utils/log"
 )
 
 type RequiredArtifactProps int

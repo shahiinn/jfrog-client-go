@@ -1,9 +1,9 @@
 package utils
 
 import (
-	"github.com/jfrog/jfrog-client-go/artifactory/buildinfo"
-	"github.com/jfrog/jfrog-client-go/utils/io/content"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
+	"github.com/shahiinn/jfrog-client-go/artifactory/buildinfo"
+	"github.com/shahiinn/jfrog-client-go/utils/io/content"
+	"github.com/shahiinn/jfrog-client-go/utils/io/fileutils"
 	"strings"
 )
 

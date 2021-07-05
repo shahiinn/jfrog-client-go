@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/buildinfo"
+	"github.com/shahiinn/jfrog-client-go/artifactory/buildinfo"
 )
 
 func TestCalculateMinimumBuildDate(t *testing.T) {

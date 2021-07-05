@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/shahiinn/jfrog-client-go/utils/log"
 )
 
 func init() {

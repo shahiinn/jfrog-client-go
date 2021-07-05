@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
+	"github.com/shahiinn/jfrog-client-go/utils/io/fileutils"
 
-	"github.com/jfrog/jfrog-client-go/utils"
+	"github.com/shahiinn/jfrog-client-go/utils"
 )
 
 // Returns an AQL body string to search file in Artifactory by pattern, according the the specified arguments requirements.

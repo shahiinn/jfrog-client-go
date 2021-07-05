@@ -10,9 +10,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/shahiinn/jfrog-client-go/utils"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/log"
 )
 
 // Open and read JSON files, find the array key inside it and load its value into the memory in small chunks.

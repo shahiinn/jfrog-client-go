@@ -3,8 +3,8 @@ package httpclient
 import (
 	"bufio"
 	"errors"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/shahiinn/jfrog-client-go/utils/errorutils"
+	"github.com/shahiinn/jfrog-client-go/utils/log"
 	"io"
 	"net/http"
 	"time"

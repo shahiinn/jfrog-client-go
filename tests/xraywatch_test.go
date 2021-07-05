@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
-	artifactoryServices "github.com/jfrog/jfrog-client-go/artifactory/services"
+	"github.com/shahiinn/jfrog-client-go/artifactory/services"
+	artifactoryServices "github.com/shahiinn/jfrog-client-go/artifactory/services"
 
-	"github.com/jfrog/jfrog-client-go/xray/services/utils"
+	"github.com/shahiinn/jfrog-client-go/xray/services/utils"
 
 	"github.com/stretchr/testify/assert"
 )

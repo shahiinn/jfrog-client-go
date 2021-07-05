@@ -7,10 +7,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/auth"
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/shahiinn/jfrog-client-go/artifactory/auth"
+	"github.com/shahiinn/jfrog-client-go/artifactory/services"
+	"github.com/shahiinn/jfrog-client-go/http/jfroghttpclient"
+	"github.com/shahiinn/jfrog-client-go/utils/log"
 )
 
 // Teardown should revoke these tokens
