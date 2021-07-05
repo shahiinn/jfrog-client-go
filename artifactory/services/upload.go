@@ -23,7 +23,7 @@ import (
 	ioutils "github.com/jfrog/jfrog-client-go/utils/io"
 	"github.com/jfrog/jfrog-client-go/utils/io/content"
 	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils/checksum"
+	//"github.com/jfrog/jfrog-client-go/utils/io/fileutils/checksum"
 	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
 	"github.com/jfrog/jfrog-client-go/utils/log"
 )
@@ -160,17 +160,17 @@ func createProperties(artifact clientutils.Artifact, uploadParams UploadParams) 
 			}
 			// If Symlink target exists -> get SHA1 if isn't a directory
 		} else if !fileInfo.IsDir() {
-			file, err := os.Open(artifact.LocalPath)
-			if err != nil {
-				return nil, errorutils.CheckError(err)
-			}
-			defer file.Close()
-			checksumInfo, err := checksum.Calc(file, checksum.SHA1)
-			if err != nil {
-				return nil, err
-			}
-			sha1 := checksumInfo[checksum.SHA1]
-			artifactProps.AddProperty(utils.SYMLINK_SHA1, sha1)
+			//file, err := os.Open(artifact.LocalPath)
+			//if err != nil {
+			//	return nil, errorutils.CheckError(err)
+			//}
+			//defer file.Close()
+			//checksumInfo, err := checksum.Calc(file, checksum.SHA1)
+			//if err != nil {
+			//	return nil, err
+			//}
+			//sha1 := checksumInfo[checksum.SHA1]
+			//artifactProps.AddProperty(utils.SYMLINK_SHA1, sha1)
 		}
 		artifactProps.AddProperty(utils.ARTIFACTORY_SYMLINK, artifactSymlink)
 	}
